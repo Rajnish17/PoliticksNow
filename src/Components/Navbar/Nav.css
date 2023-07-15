@@ -1,0 +1,19 @@
+.navbar{
+    width:fixed(1278px);
+    height: 68px;
+    top: 20px;
+    left: 81px;
+    padding: 10px, 24px, 10px, 39px;
+    border-radius:50px;
+    background: #EAE7FF;
+    display: flex;
+    justify-content: space-between;
+}
+.right-Nav-item ul{
+    display: flex;
+    list-style: none;
+   justify-content: center;
+   align-items:center ;
+    
+
+}

@@ -1,0 +1,23 @@
+.carasoul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.carasoul-item {
+    width: 1280px;
+    height: 400px;
+    color: antiquewhite;
+    background-color: #FF6700;
+    border-radius: 16px;
+}
+.carasoul-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px
+}
