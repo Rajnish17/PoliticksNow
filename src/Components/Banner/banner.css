@@ -1,0 +1,22 @@
+.Banner-header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.left-banner{
+    width: 630px;
+    height: 400px;
+    top: 112px;
+    left: 80px;
+    border-radius: 16px
+
+}
+.right-banner{
+    width: 630px;
+    height: 400px;
+    top: 112px;
+    left: 730px;
+    border-radius: 16px
+
+}
