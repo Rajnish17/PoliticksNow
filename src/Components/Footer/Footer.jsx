@@ -6,7 +6,7 @@ const Footer = () => {
 
       <div className="left-footer">
         <div><img src="" alt="img" />SpotGarage</div>
-        <span><a href=''>Support@spotgarage.in</a></span>
+        <span><a href="#">Support@spotgarage.in</a></span>
         <div className='footer-address'>
           <p>B-hub 5th floor Block A,
           Maurya lock complex,Patna 80001
