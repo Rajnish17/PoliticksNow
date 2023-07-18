@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from "../Components/Navbar/Navbar"
 
 const Partnerpage = () => {
   return (
-    <div>Partnerpage</div>
+    <div>
+
+      <Navbar/>
+    </div>
   )
 }
 
