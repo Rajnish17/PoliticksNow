@@ -2,10 +2,13 @@
 @media screen and (max-width: 480px) {
     .card-container{
         flex-wrap: wrap;
+       
         
     }
-    .card{
+    .card-container img{
         margin-top: 20px;
         background-size: cover;
     }
   }
+
+  

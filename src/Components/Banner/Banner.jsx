@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./banner.css"
-import image1 from "../assets/Frame 52425.png"
-import image2 from "../assets/Frame 52426.png"
+
 
 const Banner = () => {
+
   return (
-    <div className='flex mt-5 justify-around'>
+    <div className='flex mt-5 justify-around '>
       
       <div className='left-card'>
 

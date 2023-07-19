@@ -1,19 +1,23 @@
 import React from 'react'
 import "./card.css"
-import image3 from "../assets/Frame 52429.png"
-import image4 from "../assets/Frame 52430.png"
-import image5 from "../assets/Frame 52431.png"
-import image6 from "../assets/Frame 52432.png"
 
-const Card = () => {
+const Card = (props) => {
+  let imageData =props.data;
   return (
-    <div className='flex justify-evenly mt-5 card-container'>
+    <div className='flex justify-evenly'>
+     {
+      imageData.map((ele)=>{
 
-    <div className="card">
-      <img src={image3} alt="" />
-    </div>
+        return (
+           <div className=" card-container mt-5">
+        <img src={ele.img} alt="" />
+        
+      </div>)
+      })
+     }
+    
 
-    <div className="card">
+    {/* <div className="card">
       <img src={image4} alt="" />
     </div>
 
@@ -23,7 +27,7 @@ const Card = () => {
     
     <div className="card">
       <img src={image6} alt="" />
-    </div>
+    </div> */}
    
 
 
