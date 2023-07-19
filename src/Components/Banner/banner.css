@@ -1,14 +1,17 @@
 
+.main{
+    display: flex;
+}
 .left-card{
     background-color: #C3F1FF;
-    width: 600px;
+    width: 50%;
     height: 400px;
     border-radius: 16px;
 }
 
 .right-card{
     background-color: #ECE9FF;
-    width: 600px;
+    width: 50%;
     height: 400px;
     border-radius: 16px;
     background-image: url(https://www.spotgarage.in/static/media/a2.552d9b044993b8646021.svg);
@@ -17,7 +20,7 @@
 .top h1{
     font-size: 3rem;
     margin-top: 1rem;
-    width: 30rem;
+    width: 35rem;
     font-weight: bold;
 }
 
@@ -31,24 +34,24 @@
 }
 
 .btn{
-       background-color: #ff6700;
-       color: antiquewhite;
-       padding: 16px;
-       border-radius: 57px;
-       margin-top: 15px;
-       width: 143px;
+    background-color: #ff6700;
+    color: antiquewhite;
+    padding: 6px;
+    border-radius:16px;
+    width: 140px;
+    text-align: center;
 }
 
 
-@media screen and (max-width: 480px) {
-    .left-card{
-        flex-wrap: wrap;
-        margin-top: 20px;
-        /* background-size: cover; */
-    }
-    /* .Banner-header img{
-        flex-wrap: wrap;
-        margin-top: 10px;
-    } */
+@media screen and (max-width: 800px) {
+   .main{
+    flex-direction: column;
+   }
+   .right-card{
+    width: 100%;
+   }
+   .left-card{
+    width: 100%;
+   }
    
   }

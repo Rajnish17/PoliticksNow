@@ -4,32 +4,17 @@ import "./card.css"
 const Card = (props) => {
   let imageData =props.data;
   return (
-    <div className='flex justify-evenly'>
+    <div className='main'>
      {
       imageData.map((ele)=>{
 
         return (
-           <div className=" card-container mt-5">
+           <div className="container">
         <img src={ele.img} alt="" />
         
       </div>)
       })
      }
-    
-
-    {/* <div className="card">
-      <img src={image4} alt="" />
-    </div>
-
-    <div className="card">
-      <img src={image5} alt="" />
-    </div>
-    
-    <div className="card">
-      <img src={image6} alt="" />
-    </div> */}
-   
-
 
     </div>
   )

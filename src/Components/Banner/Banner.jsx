@@ -5,7 +5,7 @@ import "./banner.css"
 const Banner = () => {
 
   return (
-    <div className='flex mt-5 justify-around '>
+    <div className='main mt-5 justify-around '>
       
       <div className='left-card'>
 
@@ -13,7 +13,7 @@ const Banner = () => {
          <h1>We Care <span>Your Car</span> Better Than <span>Others</span></h1>
          </div>
 
-         <div className='bottom flex justify-center mt-10'>
+         <div className='bottom flex justify-left mt-10 pl-16'>
          
           <div className="left">
             <p>Book service at your nearest garage</p>
