@@ -1,27 +1,44 @@
-.navbar{
-  
-    height: 68px;
-    top: 20px;
-    left: 81px;
-    border-radius:50px;
+.navbar {
+    width: 1214px;
+    height: 72px;
+    border-radius: 3rem;
     background: #EAE7FF;
     display: flex;
-    justify-content: space-evenly;
-}
-.right-Nav-item{
-    display: flex;
-   /* justify-content: center; */
-   align-items:center ;
-   gap: 54px;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 73px;
+    margin-top: 20px;
 
 }
-.left-Nav-item{
+
+.right-Nav-item {
     display: flex;
     align-items: center;
+    font-weight: 2rem;
+    gap: 54px;
+    font-size: 18px;
+
 }
 
-.left-Nav-item img{
-   width: 30px;
-   ;
+.left-Nav-item h1 {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-weight:800;
+    font-size: 30px;
+    margin-left: 1rem;
+
 }
 
+.download-button{
+    background-color: #ff6700;
+       color: antiquewhite;
+       padding: 6px;
+       border-radius:16px;
+       width: 130px;
+}
+
+
+@media screen and (max-width:480px) {
+    
+}
