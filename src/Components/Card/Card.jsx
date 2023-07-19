@@ -7,17 +7,20 @@ import image6 from "../assets/Frame 52432.png"
 
 const Card = () => {
   return (
-    <div className='card-container'>
+    <div className='flex justify-evenly mt-5 card-container'>
 
     <div className="card">
       <img src={image3} alt="" />
     </div>
+
     <div className="card">
       <img src={image4} alt="" />
     </div>
+
     <div className="card">
       <img src={image5} alt="" />
     </div>
+    
     <div className="card">
       <img src={image6} alt="" />
     </div>

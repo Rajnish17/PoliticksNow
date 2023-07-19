@@ -5,3 +5,17 @@
     /* align-items: center; */
     justify-content: space-evenly;
 }
+
+
+@media screen and (max-width: 480px) {
+    .carasoul2-container{
+       flex-wrap: wrap;
+       margin-top: 10px;
+    }
+
+    .carasoul2-container img{
+        flex-wrap: wrap;
+        margin-top: 10px;
+     }
+   
+  }

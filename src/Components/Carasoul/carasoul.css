@@ -5,14 +5,14 @@
     margin-top: 20px;
 }
 
-
-
 .carasoul-item {
     width: 1280px;
     height: 400px;
     color: antiquewhite;
     background-color: #FF6700;
     border-radius: 16px;
+    background-image: url(https://www.spotgarage.in/static/media/c1.ebaa7e5a5d37065a53ac.svg);
+
 }
 .carasoul-text{
     display: flex;
@@ -20,4 +20,9 @@
     align-items: center;
     flex-direction: column;
     margin: 150px
+}
+
+.carasoul-text h1{
+    font-weight: bolder;
+    font-size: 40px;
 }
