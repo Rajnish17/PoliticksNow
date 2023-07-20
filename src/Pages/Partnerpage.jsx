@@ -10,7 +10,6 @@ import Footer from "../Components/Footer/Footer"
 const Partnerpage = () => {
   return (
     <div>
-
       <Navbar/>
       <Card2/>
       <Card3/>

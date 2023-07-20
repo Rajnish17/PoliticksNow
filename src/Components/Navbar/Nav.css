@@ -22,16 +22,13 @@ span{
     font-size: 18px;
 }
 
-.nav-left-item h1 {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    font-weight:800;
-    font-size: 30px;
-    align-items: center;
-    margin: -15px;
-    margin-left: 10px;
+.nav-left-item img{
+    margin: auto;
 }
+
+.nav-left-item{
+   margin: auto;
+} 
 
 .download-button{
         background-color: #ff6700;
