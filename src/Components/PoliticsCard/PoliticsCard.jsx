@@ -1,17 +1,72 @@
 import React from 'react'
 
 const PoliticsCard = () => {
-  return (
-    <div>
 
-<div className='flex justify-center gap-5 mt-10'>
-        <div className='w-[500px] h-[550px]'> <img src="https://img.freepik.com/free-vector/silhouette-crowd-people-with-flags-banners-manifestation_23-2148007361.jpg?size=626&ext=jpg" alt="" /></div>
-    <div className='w-[500px] h-[550px]'> <img src="https://img.freepik.com/free-vector/tri-color-indian-flag-with-voting-hand_1017-17717.jpg?size=626&ext=jpg" alt="" /></div>
-    </div>
+    let data = [
+        { title: "Social Media Strategy" },
+
+        {
+            title: "Content Creation"
+        },
+        {
+            title: "Community Management"
+        },
+        {
+            title: "Paid Advertising"
+        },
+        {
+            title: "Monitoring & Analytics"
+        },
+        {
+            title: "Influencer Outreach"
+        },
+        {
+            title: "Crisis Management"
+        },
+        {
+            title: "Complaiances & Regulation"
+        },
+        {
+            title: "Target Messaging"
+        },
+        {
+            title: "Tracking Opponent"
+        },
+        {
+            title: "Engaging Supporter"
+        },
+        {
+            title: "Issue Specific Campaign "
+        },
+        {
+            title: "Survey & Polls "
+        },
+        {
+            title: "Geo- Targetting "
+        },
+        {
+            title: " Social Media Listening "
+        },
+
+    ]
+    return (
+        <>
+            {
+                data.map((ele) => {
+                    return (
+                        
+                        <div className='inline-block p-3 '>
+                            <div className='rounded-[15px] text-white bg-pink-500 flex justify-center items-center  w-[200px] h-[250px]'>{ele.title}</div>
+                        </div>
+                    )
+                })
+            }
 
 
-    </div>
-  )
+
+
+        </>
+    )
 }
 
 export default PoliticsCard
