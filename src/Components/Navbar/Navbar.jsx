@@ -22,9 +22,9 @@ const Navbar = () => {
         
         <div className="right-nav-item">
         <a href="/">Home</a>
-        <a href="/services">Services</a>
+       <Link to={"/services"}> <a>Services</a> </Link>
         <a href="#">Contact Us</a>
-        <a href="/partner">Partner With Us</a>
+        <Link to={"/partner"}> <a>Partner With Us</a> </Link>
         <a className='download-button' href="#">Download App</a>
           
         </div>
