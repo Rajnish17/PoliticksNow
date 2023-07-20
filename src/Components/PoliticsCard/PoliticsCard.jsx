@@ -55,7 +55,7 @@ const PoliticsCard = () => {
                 data.map((ele) => {
                     return (
                         
-                        <div className='inline-block p-3 '>
+                        <div className='inline-block p-5 '>
                             <div className='rounded-[15px] text-white bg-pink-500 flex justify-center items-center  w-[200px] h-[250px]'>{ele.title}</div>
                         </div>
                     )

@@ -5,7 +5,7 @@ import "./Nav.css"
 const Navbar = () => {
   return (
     <>
-      <nav className='navbar mt-4'>
+      <nav className='navbar mt-4 ml-[60px]'>
 
         <Link to={"/"}>
         <div className='nav-left-item flex'>
