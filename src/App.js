@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Home from './Pages/Home';
 import Partnerpage from './Pages/Partnerpage';
+import Services from './Pages/Services';
 
 import {
   BrowserRouter,
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/partner" element={<Partnerpage />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </BrowserRouter>
     
