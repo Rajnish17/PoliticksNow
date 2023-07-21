@@ -1,72 +1,72 @@
 import React from 'react'
+import "./card.css"
 
 const PoliticsCard = () => {
+  return (
+    <>
 
-    let data = [
-        { title: "Social Media Strategy" },
-
-        {
-            title: "Content Creation"
-        },
-        {
-            title: "Community Management"
-        },
-        {
-            title: "Paid Advertising"
-        },
-        {
-            title: "Monitoring & Analytics"
-        },
-        {
-            title: "Influencer Outreach"
-        },
-        {
-            title: "Crisis Management"
-        },
-        {
-            title: "Complaiances & Regulation"
-        },
-        {
-            title: "Target Messaging"
-        },
-        {
-            title: "Tracking Opponent"
-        },
-        {
-            title: "Engaging Supporter"
-        },
-        {
-            title: "Issue Specific Campaign "
-        },
-        {
-            title: "Survey & Polls "
-        },
-        {
-            title: "Geo- Targetting "
-        },
-        {
-            title: " Social Media Listening "
-        },
-
-    ]
-    return (
-        <>
-            {
-                data.map((ele) => {
-                    return (
-                        
-                        <div className='inline-block p-5 '>
-                            <div className='rounded-[15px] text-white bg-pink-500 flex justify-center items-center  w-[200px] h-[250px]'>{ele.title}</div>
-                        </div>
-                    )
-                })
-            }
-
+  
+<section className="hero-section">
+  <div className="card-grid">
+    <a className="card" href="#">
+      <div
+        className="card__background"
+        style={{
+          backgroundImage:
+            "url(https://img.freepik.com/free-vector/hand-drawn-case-study-illustration_23-2149082710.jpg)"
+        }}
+      />
+      <div className="card__content">
+        <p className="card__category">Research</p>
+        {/* <h3 className="card__heading">Example Card Heading</h3> */}
+      </div>
+    </a>
+    <a className="card" href="#">
+      <div
+        className="card__background"
+        style={{
+          backgroundImage:
+            "url(https://www.kommunicate.io/assets/resources/dev/images/guide-to-whatsapp-bulk-messaging.png)"
+        }}
+      />
+      <div className="card__content">
+        <p className="card__category">Bulk Messaging</p>
+        {/* <h3 className="card__heading">Example Card Heading</h3> */}
+      </div>
+    </a>
+    <a className="card" href="#">
+      <div
+        className="card__background"
+        style={{
+          backgroundImage:
+            "url(https://thumbs.dreamstime.com/b/ad-campaign-word-cloud-concept-155260881.jpg)"
+        }}
+      />
+      <div className="card__content">
+        <p className="card__category">Campaigns</p>
+        {/* <h3 className="card__heading">Example Card Heading</h3> */}
+      </div>
+    </a>
+    <a className="card" href="#">
+      <div
+        className="card__background"
+        style={{
+          backgroundImage:
+            "url(https://img.freepik.com/premium-vector/popular-social-media-icons_248162-157.jpg?w=2000)"
+        }}
+      />
+      <div className="card__content">
+        <p className="card__category">Social Media</p>
+        {/* <h3 className="card__heading">Example Card Heading</h3> */}
+      </div>
+    </a>
+    <div></div>
+  </div>
+</section>
 
 
-
-        </>
-    )
+    </>
+  )
 }
 
 export default PoliticsCard
